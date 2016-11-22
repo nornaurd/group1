@@ -1,0 +1,24 @@
+.section-title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+}
+
+.section-title:after {
+    content: '';
+    display: block;
+    position: relative;
+    border-bottom: 3px solid #d55727;
+    bottom: -27px;
+    width: 42px;
+    margin: 0 auto;
+}
+
+.clearfix:after {
+    content: '';
+    display: table;
+    clear: both;
+    overflow: hidden;
+}
